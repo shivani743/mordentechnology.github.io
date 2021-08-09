@@ -29,6 +29,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/rs-animations.css">
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+
 </head>
 <style>
     .bg12 {
@@ -71,6 +73,170 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+    }
+    /* Center website */
+    
+    .main {
+        max-width: 1000px;
+        margin: auto;
+    }
+    
+    .portfolio-row {
+        margin: 8px -16px;
+    }
+    /* Add padding BETWEEN each column (if you want) */
+    
+    .portfolio-row,
+    .portfolio-row>.column {
+        padding: 8px;
+    }
+    /* Create three equal columns that floats next to each other */
+    
+    .column {
+        float: left;
+        width: 33.33%;
+        display: none;
+        /* Hide columns by default */
+    }
+    /* Clear floats after portfolio-rows */
+    
+    .portfolio-row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    /* Content */
+    
+    .content {
+        background-color: white;
+        padding: 10px;
+    }
+    /* The "show" class is added to the filtered elements */
+    
+    .show {
+        display: block;
+    }
+    /* Style the buttons */
+    
+    .btn {
+        border: none;
+        outline: none;
+        padding: 6px 33px;
+        background-color: white;
+        cursor: pointer;
+        border: 1px solid #bebebe;
+        margin: 3px;
+        border-radius: 36px;
+        font-size: 13px;
+    }
+    
+    .btn:hover {
+        background-color: #ddd;
+    }
+    
+    .btn.active {
+        background-color: #1c398842;
+        color: #000000;
+        font-weight: 500;
+        border: none;
+    }
+    
+    .service-wrap {
+        padding: 15px 15px 30px;
+        background: #ffffff;
+        box-shadow: 0px 5px 15px 5px #0000000f;
+        border-radius: 10px;
+    }
+    
+    .service-wrap .image-part {
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    
+    .portfolio-section .tags-list ul li {
+        margin-right: 5px;
+    }
+    
+    .tags-list ul li {
+        display: inline-block;
+        margin: auto 5px auto 0;
+        padding: 1px 5px 2px 5px;
+        border-radius: 3px;
+        border: 1px solid #eee;
+        background-color: #f5f5f9;
+        font-size: 8px;
+        font-weight: 500;
+        line-height: 150%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        color: #0275d8;
+        text-transform: uppercase;
+    }
+    
+    .tags-list ul {
+        border-bottom: 1px solid #d4d4d4;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        padding-left: 0px;
+        text-align: initial;
+    }
+    
+    .product-box p {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #4e4d4d;
+        margin-bottom: 15px;
+    }
+    
+    p.know-more-link {
+        margin-bottom: 0px;
+        font-weight: 500;
+        text-align: left;
+        border-top: 1px solid #f9f9f9;
+        padding-top: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        font-size: 12px;
+    }
+    
+    .discount-percentage {
+        margin-bottom: 0;
+        margin-top: 12px;
+        font-size: 10px !important;
+        font-weight: 500 !important;
+        letter-spacing: 0.5px;
+        line-height: 22px;
+    }
+    
+    .discount-percentage {
+        margin-bottom: 0;
+        margin-top: 12px;
+        font-size: 11px !important;
+        font-weight: 500 !important;
+        letter-spacing: 0.5px;
+        line-height: 22px;
+    }
+    
+    .web-label {
+        text-align: center;
+        border-radius: 4px;
+        text-transform: uppercase;
+        font-size: 10px !important;
+    }
+    
+    .premium {
+        background: #def7e9;
+        color: #27ae60;
+    }
+    
+    .name {
+        text-align: initial;
+        margin-bottom: 4px;
+        font-size: 16px;
+        font-weight: 300;
+        color: #000;
     }
 </style>
 
@@ -194,7 +360,247 @@
         <!--Header End-->
     </div>
     <!--Full width header End-->
+    <div id="rs-about" class="rs-about style3 pt-50 pb-50" style="background: #1c398817;">
+        <div class="container">
+            <div class="row y-middle">
+                <div class="col-lg-7 pl-50 lg-pl-35 md-pl-15">
+                    <div class="sec-title">
+                        <h2 class="title mb-30" style="font-weight: 100;">Our Work</h2>
+                        <p class="desc2">
+                            With over 7+ years of our journey we have been proudly serving our clients in different industry verticals from small startups to large enterprises.
 
+                            <br><br>Below are the references of some of our works, which makes you understand our capabilities and delivery process. Contact our team for advanced technology and crafted strategies to create conversion friendly business
+                            solutions for your business needs & to create an impactful digital presence.
+
+                            <br><br>We analyze and deliver each project with technical finesse, innovative, creative, and precise execution tailored to the specific needs of your business.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-5 md-mb-30">
+                    <div class="image-part">
+                        <img src="https://www.techasoft.com/debug/img/10-work@3x.png" height="100px" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog Section Start -->
+    <div class="rs-blog style1  pt-50 pb-50" style="background-image:url('assets/images/bg.png');     background-repeat: no-repeat;background-size: cover;">
+        <div class="container-fluid">
+            <div id="myBtnContainer">
+                <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                <button class="btn" onclick="filterSelection('logo-design')">Logo Design</button>
+                <button class="btn" onclick="filterSelection('web-design')"> Web Design</button>
+                <!-- <button class="btn" onclick="filterSelection('dynamic-website')"> Dynamic Website</button>
+                <button class="btn" onclick="filterSelection('landing-pages')"> Landing Pages</button> -->
+                <button class="btn" onclick="filterSelection('mobile-application')"> Mobile Application</button>
+            </div>
+
+            <!-- Portfolio Gallery Grid -->
+            <div class="row portfolio-row">
+                <div class="col-md-3 col-sm-6 col-xs-12 column web-design">
+                    <div class="service-wrap">
+                        <div class="image-part">
+                            <img src="assets/images/portfolio/short/portshort1.png" alt="">
+                        </div>
+                        <div class="content-part text-center">
+                            <div class="tags-list">
+                                <ul>
+                                    <li>Online Appointment</li>
+                                    <li>UI/UX</li>
+                                    <li>Web Design</li>
+                                </ul>
+                            </div>
+                            <h5 class="name"><a class="product-name" href="portfolio-signal.html">Online Doctor's Appointment</a></h5>
+                            <p align="left">Online doctor's Appointment for patient & Doctor Registration.</p>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <p class="know-more-link"><a href="portfolio-signal.html">Preview <i class="fa fa-long-arrow-right"></i></a></p>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="discount-percentage web-label premium">Appointment System</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 column web-design">
+                    <div class="service-wrap">
+                        <div class="image-part">
+                            <img src="assets/images/portfolio/short/portshort2.png" alt="">
+                        </div>
+                        <div class="content-part text-center">
+                            <div class="tags-list">
+                                <ul>
+                                    <li>eCommerce</li>
+                                    <li>UI/UX</li>
+                                    <li>Web Design</li>
+                                </ul>
+                            </div>
+                            <h5 class="name"><a class="product-name" href="portfolio-signal.html">FxHub</a></h5>
+                            <p align="left">Forex Hub is the fastest growing Best Forex Trading Signals.</p>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <p class="know-more-link"><a href="portfolio-signal.html">Preview <i class="fa fa-long-arrow-right"></i></a></p>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="discount-percentage web-label premium">Trading Marketing</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 column web-design">
+                    <div class="service-wrap">
+                        <div class="image-part">
+                            <img src="assets/images/portfolio/short/portshort3.png" alt="">
+                        </div>
+                        <div class="content-part text-center">
+                            <div class="tags-list">
+                                <ul>
+                                    <li>IT Website</li>
+                                    <li>UI/UX</li>
+                                    <li>Web Design</li>
+                                </ul>
+                            </div>
+                            <h5 class="name"><a class="product-name" href="portfolio-signal.html">Morden Technology USA</a></h5>
+                            <p align="left">We provide online marketing strategies in USA for your business.</p>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <p class="know-more-link"><a href="portfolio-signal.html">Preview <i class="fa fa-long-arrow-right"></i></a></p>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="discount-percentage web-label premium">Technical Website</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 column web-design">
+                    <div class="service-wrap">
+                        <div class="image-part">
+                            <img src="assets/images/portfolio/short/portshort4.png" alt="">
+                        </div>
+                        <div class="content-part text-center">
+                            <div class="tags-list">
+                                <ul>
+                                    <li>Homeopathy Website</li>
+                                    <li>UI/UX</li>
+                                    <li>Web Design</li>
+                                </ul>
+                            </div>
+                            <h5 class="name"><a class="product-name" href="portfolio-signal.html">Online Homeopathy Website</a></h5>
+                            <p align="left">Homeopathy is the alternative form of medicine.</p>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <p class="know-more-link"><a href="portfolio-signal.html">Preview <i class="fa fa-long-arrow-right"></i></a></p>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="discount-percentage web-label premium">Technical Website</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- <div class="col-md-3 col-sm-6 col-xs-12 column dynamic-website">
+                    <p>Dynamic website</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 column dynamic-website">
+                    <p>Dynamic website</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 column dynamic-website">
+                    <p>Dynamic website</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 column dynamic-website">
+                    <p>Dynamic website</p>
+                </div> -->
+                <!-- 
+                <div class="col-md-3 col-sm-6 col-xs-12 column landing-pages">
+                    <p>Landing pages</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 column landing-pages">
+                    <p>Landing pages</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 column landing-pages">
+                    <p>Landing pages</p>
+                </div> -->
+
+                <div class="col-md-3 col-sm-6 col-xs-12 column logo-design">
+                    <div class="service-wrap">
+                        <div class="image-part">
+                            <img src="assets/images/portfolio/logo/logo6.png" alt="">
+                        </div>
+                        <div class="content-part text-center">
+                            <h5 class="name"><a class="product-name" href="portfolio-signal.html">Morden Health & Nutrition</a></h5>
+                            <p align="left">Custom Tours &amp; Travel Package Booking Web Application</p>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <p class="know-more-link"><a href="portfolio-signal.html">Preview <i class="fa fa-long-arrow-right"></i></a></p>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="discount-percentage web-label premium">Travel &amp; Tourism</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 column logo-design">
+                    <div class="service-wrap">
+                        <div class="image-part">
+                            <img src="assets/images/portfolio/logo/logo5.png" alt="">
+                        </div>
+                        <div class="content-part text-center">
+                            <h5 class="name"><a class="product-name" href="portfolio-signal.html">Kajal Blogs</a></h5>
+                            <p align="left">Custom Tours &amp; Travel Package Booking Web Application</p>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <p class="know-more-link"><a href="portfolio-signal.html">Preview <i class="fa fa-long-arrow-right"></i></a></p>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="discount-percentage web-label premium">Travel &amp; Tourism</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-3 col-sm-6 col-xs-12 column logo-design">
+                    <p>Logo Design</p>
+                </div> -->
+
+                <div class="col-md-3 col-sm-6 col-xs-12 column mobile-application">
+                    <div class="service-wrap">
+                        <div class="image-part">
+                            <img src="assets/images/portfolio/app/app1.png" alt="">
+                        </div>
+                        <div class="content-part text-center">
+                            <h5 class="name"><a class="product-name" href="portfolio-signal.html">Prepu Education System</a></h5>
+                            <p align="left">Online Education system Mobile Application</p>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <p class="know-more-link"><a href="portfolio-signal.html">Preview <i class="fa fa-long-arrow-right"></i></a></p>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="discount-percentage web-label premium">Education System</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 column mobile-application">
+                    <p>Mobile Application</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 column mobile-application">
+                    <p>Mobile Application</p>
+                </div>
+                <!-- END GRID -->
+            </div>
+        </div>
+        <!-- container -->
+    </div>
+    <!-- Blog Section End -->
 
 
 
@@ -205,97 +611,9 @@
     <!-- Footer Start -->
     <footer id="rs-footer" class="rs-footer">
         <div class="container">
-            <div class="footer-newsletter">
-                <div class="row y-middle">
-                    <div class="col-md-6 sm-mb-26">
-                        <h3 class="title white-color mb-0">Newsletter Subscribe</h3>
-                    </div>
-                    <div class="col-md-6 text-right">
-                        <form class="newsletter-form">
-                            <input type="email" name="email" placeholder="Your email address" required="">
-                            <button type="submit"><i class="fa fa-paper-plane"></i></button>
-                        </form>
-                    </div>
-                </div>
-            </div>
             <div class="footer-content pt-62 pb-79 md-pb-64 sm-pt-48">
                 <div class="row">
-                    <div class="col-lg-4 col-md-12 col-sm-12 footer-widget md-mb-39">
-                        <div class="about-widget pr-15">
-                            <div class="logo-part">
-                                <!-- <a href="index.html"><img src="assets/images/logo.png" alt="Footer Logo"></a> -->
-                            </div>
-                            <p class="desc">We denounce with righteous indignation in and dislike men who are so beguiled and to demo realized by the charms of pleasure moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound.</p>
-                            <div class="btn-part">
-                                <a class="readon" href="about.html">Discover More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12 md-mb-32 footer-widget">
-                        <h4 class="widget-title">Contact Info</h4>
-                        <ul class="address-widget pr-40">
-                            <li>
-                                <i class="flaticon-location"></i>
-                                <div class="desc">374 William S Canning Blvd, Fall River MA 2721, USA</div>
-                            </li>
-                            <li>
-                                <i class="flaticon-call"></i>
-                                <div class="desc">
-                                    <a href="tel:+8801739753105">(+880)173-9753105</a>
-                                </div>
-                            </li>
-                            <li>
-                                <i class="flaticon-email"></i>
-                                <div class="desc">
-                                    <a href="mailto:support@rstheme.com">support@rstheme.com</a>
-                                </div>
-                            </li>
-                            <li>
-                                <i class="flaticon-clock"></i>
-                                <div class="desc">
-                                    10:00 - 17:00
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12 footer-widget">
-                        <h4 class="widget-title">Latest Posts</h4>
-                        <div class="footer-post">
-                            <div class="post-wrap mb-15">
-                                <div class="post-img">
-                                    <a href="blog-single.html"><img src="assets/images/blog/small/1.jpg" alt=""></a>
-                                </div>
-                                <div class="post-desc">
-                                    <a href="blog-single.html">Covid-19 threatens the next generation of smartphones</a>
-                                    <div class="date-post">
-                                        <i class="fa fa-calendar"></i> September 6, 2019
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="post-wrap mb-15">
-                                <div class="post-img">
-                                    <a href="blog-single.html"><img src="assets/images/blog/small/2.jpg" alt=""></a>
-                                </div>
-                                <div class="post-desc">
-                                    <a href="blog-single.html">Soundtrack filma Lady Exclusive Music</a>
-                                    <div class="date-post">
-                                        <i class="fa fa-calendar"></i> April 15, 2019
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="post-wrap">
-                                <div class="post-img">
-                                    <a href="blog-single.html"><img src="assets/images/blog/small/3.jpg" alt=""></a>
-                                </div>
-                                <div class="post-desc">
-                                    <a href="blog-single.html">Winged moved stars, fruit creature seed night.</a>
-                                    <div class="date-post">
-                                        <i class="fa fa-calendar"></i> October 9, 2019
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
             <div class="footer-bottom">
@@ -367,6 +685,55 @@
     <script src="assets/js/contact.form.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/parallax-effect.min.js"></script>
+    <script>
+        filterSelection("all") // Execute the function and show all columns
+        function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("column");
+            if (c == "all") c = "";
+            // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+            for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+            }
+        }
+
+        // Show filtered elements
+        function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) {
+                    element.className += " " + arr2[i];
+                }
+            }
+        }
+
+        // Hide elements that are not selected
+        function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                    arr1.splice(arr1.indexOf(arr2[i]), 1);
+                }
+            }
+            element.className = arr1.join(" ");
+        }
+
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
 </body>
 
 
