@@ -8103,3 +8103,7 @@ textarea.form-control {
     line-height: 25px;
     font-size: 13px;
 }
+
+.bg-black {
+    background: #000;
+}
