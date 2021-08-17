@@ -79,6 +79,12 @@ iframe {
 
 label {
     font-weight: normal;
+    color: #000;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 2px;
 }
 
 h1 {
